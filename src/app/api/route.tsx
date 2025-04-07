@@ -3,8 +3,8 @@ import axios from "axios";
 export const useFetchWeatherItems = () => {
   const fetchItems = async () => {
     try {
-      const city = 'Saint Petersburg';
-      const countryCode = 'RU';
+      const city = "Saint Petersburg";
+      const countryCode = "RU";
       const limit = 5;
       const apiKey = process.env.WEATHER_API_KEY;
 
